@@ -8,8 +8,16 @@ export default function Counter() {
   return (
     <div>
       <NavBar />
-      <h1>counter {counter}</h1>
+      <h1 className={counter % 2 === 0 ? "active" : ""}>counter {counter}</h1>
       <button onClick={() => setCounter((pre) => pre + 1)}>+</button>
+      <style jsx>{`
+        h1 {
+          background-color: tomato;
+        }
+        .active {
+          color: yellow;
+        }
+      `}</style>
     </div>
   );
 }
