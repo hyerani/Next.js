@@ -1,14 +1,17 @@
 "use client";
 import { useState } from "react";
-import NavBar from "../navbar/page";
-import Seo from "../seo";
 
-export default function Counter() {
+async function getData() {
+  return { title: "About | Next Movies" }; // Your blog content
+}
+
+export default async function Counter() {
   const [counter, setCounter] = useState(0);
+  const { title } = await getData();
 
   return (
     <div>
-      <Seo title="About" />
+      <title>{title}</title>
       <h1 className={counter % 2 === 0 ? "active" : ""}>counter {counter}</h1>
       <button onClick={() => setCounter((pre) => pre + 1)}>+</button>
       <style jsx>{`

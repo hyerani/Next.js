@@ -1,9 +1,7 @@
-import Seo from "./seo";
-
 export default function Home() {
   return (
     <div>
-      <Seo title="Home" />
+      <title>Home | Next Movies</title>
       <h1>Home</h1>
     </div>
   );
