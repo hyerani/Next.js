@@ -16,7 +16,7 @@ export default async function Counter() {
       <button onClick={() => setCounter((pre) => pre + 1)}>+</button>
       <style jsx>{`
         .active {
-          color: yellow;
+          color: blue;
         }
       `}</style>
     </div>
