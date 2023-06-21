@@ -1,6 +1,6 @@
 # Next.js
 
-## [next-movie-app](https://github.com/hyerani/next-movie-app)
+# [next-movie-app](https://github.com/hyerani/next-movie-app)
 
 ## [Next.js 배워보기](https://velog.io/@hyerani/Next.js-%EB%B0%B0%EC%9B%8C%EB%B3%B4%EA%B8%B0)
 
