@@ -13,7 +13,7 @@
 ## [CSS모듈](https://velog.io/@hyerani/Next.js-CSS-%EB%AA%A8%EB%93%88)
 
 - css 모듈 파일 이름 설정
-- import/스타일 적용
+- import 스타일 적용
 - 2개 이상 클래스명 지정
 - 장/단점
 
