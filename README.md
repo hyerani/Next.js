@@ -15,7 +15,7 @@
 - css 모듈 파일 이름 설정
 - import 스타일 적용
 - 2개 이상 클래스명 지정
-- 장/단점
+- 장 / 단점
 
 ## [Styled JSX](https://velog.io/@hyerani/Next.js-Styled-JSX)
 
