@@ -7,7 +7,7 @@
 - 설치하기
 - 페이지 라우팅
 - usePathname
-- import 없이 jsx 사용하기
+- import 없이 jsx사용하기
 - Pre-Rendering
 
 ## [CSS모듈](https://velog.io/@hyerani/Next.js-CSS-%EB%AA%A8%EB%93%88)
